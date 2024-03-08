@@ -1,12 +1,14 @@
 * {
     text-align: center;
-    color: red;
+    color: black;
+    background-color: rosybrown;
   }
  
  
  
  
   body{
-    background-color: black;
+    color: white;
+    background-color: wheat;
   }
  
