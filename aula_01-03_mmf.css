@@ -22,6 +22,7 @@
 header img{
   left: 670px;
   padding: 0.9rem;
+  font-size: 36px;
 }
 
 main{
@@ -49,4 +50,9 @@ p{
   color: var(--white);
   font-size: 48px;
   text-align: center;
+}
+
+button{
+  background-color: #C95B5B;
+  color: #fff;
 }
