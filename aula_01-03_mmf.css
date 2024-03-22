@@ -19,6 +19,24 @@
   --white: #fff;
 }
 
+header img{
+  left: 670px;
+  padding: 0.9rem;
+}
+
+main{
+  min-height: calc(100vh- 8.5rem);
+}
+
+
+main.index{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 h1{
   background-color: #C86363;
   color: var(--black);
