@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
 
  
@@ -19,14 +18,28 @@
   --white: #fff;
 }
 
-header img{
-  left: 670px;
-  padding: 0.9rem;
-  font-size: 36px;
+.Login{
+  font-family: "Julee", sans-serif;
+}
+.main{
+  align-content: center;
+  align-items: center;
+  font-family: "Julee", sans-serif;
+}
+.free{
+  min-height: calc(100vh- 8.5rem);
+  font-family: "Julee", sans-serif;
+  background-color:aqua;
+  border-radius: 50%;
+
 }
 
-main{
+
+.Premium{
   min-height: calc(100vh- 8.5rem);
+  font-family: "Julee", sans-serif;
+  background-color: red;
+  border-radius: 50%;
 }
 
 
