@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Julee", sans-serif;
+  }
+
+  .topo {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+    height: 18rem;
+  }
+  header.topo h1{
+    width: 100%;
+    text-align: center;
+    font-size: 128px;
+  }
+  
+  .Voltar {
+    font-family: "Julee", sans-serif;
+    background-color: white;
+    align-items: left;
+    font-size: 48px;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-family: "Julee", sans-serif;
+    flex-direction: column;
+    min-height: calc(100vh - 18rem);
+    width: 100%;
+    margin: 0 auto;
+    background-color: red;
+  }
+  
+  .resumo{
+    font-size: 38px;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+  .tabela{
+    font-size: 24px;
+    border-color: white;
+    width: 65%;
+    height: 30px;
+  }
