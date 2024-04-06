@@ -66,8 +66,10 @@ main div{
   background-color: #3D6977;
   border-radius: 50%;
   align-items: center;
-  padding: 20px 80px;
+  padding: 60px 65px;
   border-: 4rem;
+  color: white;
+  font-size: 24px;
 }
 
 
@@ -76,7 +78,9 @@ main div{
   font-family: "Julee", sans-serif;
   background-color: red;
   border-radius: 50%;
-  padding: 20px 50px;
+  padding: 60px 40px;
+  color: white;
+  font-size: 24px;
 }
 
 
