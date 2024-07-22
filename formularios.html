@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01 - CEFET-MG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            border: 1px solid #000;
+        }
+        .header, .footer {
+            margin: 20px 0;
+        }
+        .header img, .footer img {
+            width: 100%;
+            height: auto;
+        }
+        .content {
+            text-align: left;
+            margin: 20px 0;
+        }
+        .content p {
+            margin: 10px 0;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .info {
+            margin: 20px 0;
+        }
+        .slides input {
+            display: none;
+        }
+        .slides .slide {
+            display: none;
+        }
+        .slides input:checked + .slide {
+            display: block;
+        }
+        .navigation {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .navigation label {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #ccc;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="banner.jpeg" alt="Banner">
+            <p>Centro Federal de Educação Tecnológica de Minas Gerais<br>Campus VIII – Varginha</p>
+        </div>
+        <div class="content">
+            <div class="title">Curso Técnico em Informática</div>
+            <div class="subtitle">Disciplina: Laboratório de Aplicações para Web 1</div>
+            <div class="info">
+                <p><strong>ATIVIDADE 01</strong></p>
+                <p><strong>Professor:</strong> Lázaro Eduardo da Silva</p>
+                <p><strong>Valor:</strong> 100%</p>
+                <p><strong>Nota:</strong> </p>
+                <p><strong>Data:</strong> 12/07/2024</p>
+                <p><strong>Aluno:</strong> </p>
+            </div>
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <div class="slide">
+                    <p>Conteúdo do Slide 1</p>
+                </div>
+                <input type="radio" name="slide" id="slide2">
+                <div class="slide">
+                    <form>
+                        <p><strong>Formulário:</strong></p>
+                        <label for="name">Nome:</label><br>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br><br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+            <div class="navigation">
+                <label for="slide1">Slide 1</label>
+                <label for="slide2">Formulário</label>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Centro Federal de Educação Tecnológica de Minas Gerais<br>Campus VIII – Varginha</p>
+            <img src="banner.jpeg" alt="Banner">
+        </div>
+    </div>
+</body>
+</html>
